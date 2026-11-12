@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>عمر × ضوضتي</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="gl"></canvas>
+
+<div id="gate">
+  <svg id="ld" viewBox="0 0 24 22"><path d="M12 21C-4 10 3-1 12 5c9-6 16 5 0 16z" fill="#e8b4c0"/></svg>
+  <h1 id="wl"></h1>
+  <form id="f" autocomplete="off">
+    <input id="pw" type="password" placeholder="الكلمة السرية" aria-label="الكلمة السرية" autocomplete="off" autocapitalize="off">
+    <br><button class="bt" type="submit">ادخلي عالمك ❤️</button>
+  </form>
+  <div id="err"></div>
+</div>
+
+<button id="mu" class="gl8">موسيقى: واقفة</button>
+
+<section class="sc" id="heart"><p>اضغطي على القلب وشوفي هيحصل إيه</p></section>
+
+<section class="sc" id="letters">
+  <h2>رسايل مخصوصة</h2>
+  <button id="rb" class="bt">قوليلي رسالة حلوة</button>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="sc" id="garden">
+  <h2>حديقة الذكريات</h2>
+  <p style="color:#e8b4c0cc;font-weight:300">كل وردة جواها كلمة... افتحيها</p>
+  <div class="gd" id="gd"></div>
+</section>
+
+<section class="sc" id="sky">
+  <h2>سما مليانة قلوب</h2>
+  <p style="color:#e8b4c0cc;font-weight:300">دوسي في أي مكان... وافتحي النجوم اللي بتلمع</p>
+</section>
+
+<section class="sc" id="omar">
+  <div class="pp">
+    <h2>من عمر لضوضتي...</h2>
+    <div id="ot"></div>
+    <div id="sg">— عمر ❤️</div>
+  </div>
+</section>
+
+<section class="sc" id="end">
+  <h2 class="e1">عمر &amp; ضوضتي</h2>
+  <p class="e2" style="font-size:1.15rem;margin-bottom:22px">وفي كلام حلو كتير لسه متقالش... ❤️</p>
+  <button class="bt e3" id="rs">ابدئي الحكاية من أول وجديد</button>
+</section>
+
+<div id="mod"><div class="pa"><p id="tx"></p><button id="cl">تمام</button></div></div>
+<div id="note" class="gl8"></div>
+<nav id="nav">
+  <button id="pv">→ السابق</button><span id="pg"></span><button id="nx">التالي ←</button>
+</nav>
+
+<script src="main.js"></script>
+</body>
+</html>
